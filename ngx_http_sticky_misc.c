@@ -19,6 +19,7 @@
 /* - fix for 1.11.2 removes include <openssl/md5.h> in ngx_md5.h */
 #define MD5_CBLOCK  64
 #define MD5_LBLOCK  (MD5_CBLOCK/4)
+#define MD5_DIGEST_LENGTH 16
 #define SHA_CBLOCK 64
 #define SHA_DIGEST_LENGTH 20
 
